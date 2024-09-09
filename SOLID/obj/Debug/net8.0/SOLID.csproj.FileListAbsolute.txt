@@ -12,3 +12,4 @@ C:\Users\Ssofian\source\repos\SOLID\SOLID\obj\Debug\net8.0\refint\SOLID.dll
 C:\Users\Ssofian\source\repos\SOLID\SOLID\obj\Debug\net8.0\SOLID.pdb
 C:\Users\Ssofian\source\repos\SOLID\SOLID\obj\Debug\net8.0\SOLID.genruntimeconfig.cache
 C:\Users\Ssofian\source\repos\SOLID\SOLID\obj\Debug\net8.0\ref\SOLID.dll
+C:\Users\Ssofian\source\repos\SOLID\SOLID\obj\Debug\net8.0\SOLID.sourcelink.json

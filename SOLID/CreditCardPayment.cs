@@ -6,8 +6,15 @@
 
 public class CreditCardPayment : IOrderPayment
 {
+    private readonly decimal _totalAmount;
+
+    public CreditCardPayment(decimal totalAmount)
+    {
+        _totalAmount = totalAmount;
+    }
+
     public void ProcessPayment()
     {
-        Console.WriteLine("Payment processed with Credit Card.");
+        Console.WriteLine($"Payment of {_totalAmount:C} processed with Credit Card.");
     }
 }

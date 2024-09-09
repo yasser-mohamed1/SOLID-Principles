@@ -16,4 +16,9 @@ public class Book
         Author = author;
         Price = price;
     }
+
+    public override string ToString()
+    {
+        return $"Book Title: {Title} - Author: {Author} - Price: {Price:C}";
+    }
 }
