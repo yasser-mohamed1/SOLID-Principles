@@ -6,11 +6,11 @@ This repository demonstrates the SOLID principles using a simple **Book Store** 
 
 The application follows the SOLID principles:
 
-- <span style="color: red;font-weight: bold;">S</span>ingle Responsibility Principle (SRP): The `Book` and `Order` classes have distinct, single responsibilities.
-- <span style="color: red;font-weight: bold;">O</span>pen/Closed Principle (OCP): Discounts are applied using the `Discount` abstract class, allowing easy extension of different discount types without modifying existing code.
-- <span style="color: red;font-weight: bold;">L</span>iskov Substitution Principle (LSP): The `BookWithDiscount` class can be substituted for the `Book` class without affecting program behavior.
-- <span style="color: red;font-weight: bold;">I</span>nterface Segregation Principle (ISP): Specific interfaces like `IOrderNotification` and `IOrderPayment` are created, adhering to focused interfaces.
-- <span style="color: red;font-weight: bold;">D</span>ependency Inversion Principle (DIP): The `OrderProcessor` depends on abstractions (interfaces) rather than concrete implementations for notifications and payments.
+- **S**ingle Responsibility Principle (SRP): The `Book` and `Order` classes have distinct, single responsibilities.
+- **O**pen/Closed Principle (OCP): Discounts are applied using the `Discount` abstract class, allowing easy extension of different discount types without modifying existing code.
+- **L**iskov Substitution Principle (LSP): The `BookWithDiscount` class can be substituted for the `Book` class without affecting program behavior.
+- **I**nterface Segregation Principle (ISP): Specific interfaces like `IOrderNotification` and `IOrderPayment` are created, adhering to focused interfaces.
+- **D**ependency Inversion Principle (DIP): The `OrderProcessor` depends on abstractions (interfaces) rather than concrete implementations for notifications and payments.
 
 ## Project Structure
 
